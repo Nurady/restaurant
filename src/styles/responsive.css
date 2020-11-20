@@ -1,0 +1,233 @@
+@media screen and (max-width: 320px) {
+    footer p {
+        font-size:14px;
+    }
+
+    .container-card {
+        display:block;
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom:20px;
+    }
+
+    .container-card {       
+        padding-left: 10px;        
+    }  
+}
+
+@media screen and (max-width: 499px) {    
+    .nav__brand {
+        width: 30px;
+        height: 30px;
+        display: block;
+        margin-left:5px;
+        margin-bottom: 50px;      
+        position: relative;
+    }
+
+    .container-card {       
+        padding-left: 5px;        
+    }  
+
+    .nav {
+        z-index: 10;
+        background-color: #fff;
+        width: 200px;
+        position: absolute;
+
+        /* This trasform moves the drawer off canvas. */
+        -webkit-transform: translate(-300px, 0);
+        transform: translate(-300px, 0);
+
+        /* Optionally, we animate the drawer. */
+        transition: transform 0.3s ease;
+    }
+
+    .nav a {     
+        color: #616161;     
+    }
+
+    .open {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+
+    .nav__item {
+        display: list-item;
+        border-bottom: 1px solid #E0E0E0;
+        width: 100%;
+        text-align: left;
+    }
+
+    .container-card {
+        display:block;
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom:20px;
+    }
+}
+
+@media screen and (min-width: 455px) {
+    .headline__content {
+        padding: 16px 16px;
+    }
+
+    .headline__title {
+        font-size: 28px;
+    }
+
+    .headline__description {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .header__menu {
+        display: none;
+    }   
+}
+
+@media (min-width: 500px) and (max-width: 650px) {
+    .nav__brand {
+        margin-left:5px; 
+    }
+
+    .img-brand {
+        width: 80%;
+        margin-top: 5px;
+    }
+
+    .nav__item {       
+        width: 25%;     
+    } 
+    
+    .nav__list li {       
+        padding-right: -10px;     
+    }
+
+    .card { 
+        display: block;
+        width: 100%;
+    }    
+
+    .container-card { 
+        display: block;
+        width: 100%;
+        padding-left: 5%;
+    } 
+
+    .post-item__thumbnail {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (min-width: 651px) and (max-width: 700px) {
+    .nav__brand {
+        margin-left:5px; 
+    }
+    
+    .nav__item {       
+        width: 25%;     
+    } 
+
+    .card { 
+        display: block;
+        width: 100%;       
+    }    
+
+    .container-card { 
+        display: block;
+        width: 100%;
+        padding-left: 5%;
+    } 
+
+    .post-item__thumbnail {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (min-width: 701px) and (max-width: 800px) {
+    .card {      
+        width: 45%;
+        margin-right: 25px;                
+    } 
+
+    .container-card {      
+        padding-left: 5%;     
+    } 
+}
+
+@media (min-width: 750px) and (max-width: 899px) {
+   .headline {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   }
+
+   .headline__figure {
+       height: 75%;
+       margin-top:40px;
+   }
+}
+
+@media screen and (min-width: 650px) {
+    .headline__content {
+        margin: 0 auto;
+        max-width: 650px;
+    }
+
+    .post-item__content {
+        padding: 16px 32px 32px 32px;
+    }
+
+    .post-item__title {
+        font-size: 18px;
+    }
+
+    .post-item__description {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .nav__list {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .headline {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .headline__content {
+        padding: 16px 32px;
+    }
+
+    .card {       
+        width: 30%;
+        margin-right: 20px;      
+    }
+}
+
+@media (min-width: 800px) and (max-width: 900px) { 
+    .card {       
+        width: 30%;
+        margin-right: 20px;      
+        }
+}
+
+@media screen and (min-width: 1200px) {
+    main {
+        max-width: 1200px;
+    }
+}
